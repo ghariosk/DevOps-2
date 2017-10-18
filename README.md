@@ -2,8 +2,9 @@
 
 
 
-## Install rails and gems on your Ubuntu virtual machine :
+# Install rails and gems on your Ubuntu virtual machine :
 
+## Install Vagrant and Virtual Box :
 
 * [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 
@@ -13,9 +14,7 @@
 
 1. Clone the following repository using gin :
 
-
 `git clone git@github.com:ghariosk/DevOps-2.git`
-
 
 2. Move into the app :
 
@@ -31,11 +30,11 @@
 
 5. Check :
 
-
-`development.local:4567` [here](development.local:4567)
-
+`development.local:4567` [here](https:development.local:4567)
 
 > You should be directed to the test page.
 
+
+![Screenshot of the page](Screenshot.png)
 
 
