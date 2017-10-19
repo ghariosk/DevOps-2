@@ -8,6 +8,19 @@ describe command('ruby -v') do
   its(:stdout) { should match /.2\.4./ }
 end
 
+descring package('zlib1g-dev') do 
+	it {should be_installed}
+end
+
+describe package('ruby2.4-dev') do
+	it {should be_installed}
+end
+
+describe package('libxml2') do
+	it {should be_installed}
+end
+
+
 describe package('bundler') do
   it { should be_installed.by('gem')}
 end
